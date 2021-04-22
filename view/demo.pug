@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    title Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                | VDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+        
+    section#introSection 
+        div.big Welcome to World Famous Dance Academy
+        div.small Eat Dance Sleep Repeat ;-)
+    section#missionSection 
+        h2 Our Mission
+        div.card
+            h4 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance4.png")
+            div.card-content
+                p This is the best dance academy of the universe
+        div.card
+            h4 Everybody dance in their own style
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance5.png")
+            div.card-content
+                p This is the best dance academy of the universe
+        div.card
+            h4 Dance is an interesting Art
+            div.card-box
+                div.card-img
+                    img(src="/static/img/dance6.png")
+            div.card-content
+                p This is the best dance academy of the universe
+    section#sponcerSection 
+        h2 Our Sponcers
+        div#sponcers
+            img(src="/static/img/spon1.jpg", alt="Sponcer image", class="spImage") 
+            img(src="/static/img/spon2.png", alt="Sponcer image", class="spImage") 
+            img(src="/static/img/spon5.png", alt="Sponcer image", class="spImage") 
+            img(src="/static/img/spon4.png", alt="Sponcer image", class="spImage") 
+
+    footer#footer 
+        | CopyRight © 1998 World Famous Dance Academy | All rights reserved 
+
+     
+
+    script
+      include ../static/index.js 

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+#logo{
+    display: flex;
+    color: white;
+    font-family: 'RocknRoll One', sans-serif;
+    align-items: center;
+
+}
+
+#logo img{
+    filter: invert(1);
+    height: 56px
+}
+#navbar{
+    background-color: black;
+    padding: 13px 14px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-weight: bold;
+
+}
+#navbar li a:hover{
+    color:rgb(121, 121, 226);
+
+}
+
+#introSection{
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    flex-direction: column;
+    font-weight: bold;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 477px;
+    /* background-color: red; */
+}
+
+
+
+#introSection div.small{
+    font-size: 28px;
+}
+
+#missionSection{
+    height: 300px;
+    width: 91%;
+    margin: auto;
+
+}
+
+.card{
+    border: black 2px solid;
+    border-radius: 7px;
+    height: 200px;
+    width: 28%;
+    display: inline-block;
+    margin: 25px 25px;
+}
+
+.card h4{
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 126px;
+    padding: 0 14px;
+    /* align-content: center; */
+    margin: 9px 95px
+}
+.card-img img{
+    height: inherit;
+    /* padding: 0 14px; */
+}
+
+.card-content{
+    padding: 0px 30px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+#missionSection h2{
+    text-align: center;
+    padding: 9px;
+}
+
+
+#sponcerSection{
+    height: 300px;
+    /* background-color: yellow; */
+    
+}
+
+#sponcerSection h2{
+    text-align: center;
+    padding: 9px;
+}
+
+#sponcers{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spImage{
+    height: 120%;
+    margin: 29px;
+}
+
+#footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+    
+}
